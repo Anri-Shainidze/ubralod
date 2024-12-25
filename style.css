@@ -9,7 +9,7 @@ header {
 body {
     min-height: 100vh;
 }
-.photo {
+.photos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,7 +22,7 @@ nav {
     justify-content: space-around;
     padding: 2rem;
 }
-.navigation {
+.erti {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -70,14 +70,14 @@ nav a {
 .abdi {
     margin-top: 5.5px;
 }
-.arrows {
+.ragaceebi {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 2rem;
     margin-left: 10px;
 }
-.arrow {
+.samisami {
     width: 10%;
     border: 1px solid gray;
     height: 40px;
@@ -168,7 +168,7 @@ nav a {
     text-decoration-skip-ink: none;
     color: black;
 }
-.readmore {
+.more {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -178,7 +178,7 @@ nav a {
     padding: 1rem;
     width: 40%;
 }
-.readmore a {
+.more a {
     text-decoration: none;
     font-size: 12px;
     font-weight: 400;
@@ -186,10 +186,7 @@ nav a {
     letter-spacing: 0.2em;
     color: rgba(51, 51, 51, 1);
 }
-#nuru {
-    margin-top: 4px;
-}
-.all {
+.mainall {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
@@ -543,6 +540,9 @@ main {
     background-color: rgba(211, 211, 211, 0.245);
     gap: 2rem;
 }
+.pirvelive{
+    margin-top: 20%;
+}
 .project2 {
     display: flex;
     flex-direction: row;
@@ -681,6 +681,18 @@ main {
     display: flex;
     flex-direction: row;
 }
+.all-map {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.icons span{
+    color: white;
+}
+.map{
+    margin-left: 10rem;
+    gap: 2rem;
+}
 .map p {
     font-size: 18px;
     font-weight: 700;
@@ -708,16 +720,5 @@ main {
     flex-direction: column;
     gap: 3rem;
 }
-.all-map {
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-}
-.icons span{
-    color: white;
-}
-.map{
-    margin-left: 10rem;
-    gap: 2rem;
-}
+
   
