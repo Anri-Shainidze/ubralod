@@ -645,6 +645,10 @@ main {
     align-items: center;
     margin-top: 60px;
 }
+.certificate{
+    margin-top: 5%;
+    margin-left: 12%;
+}
 .form {
     display: flex;
     flex-direction: row;
@@ -671,6 +675,9 @@ main {
     font-size: 64px;
     line-height: 64px;
     color: rgba(189, 189, 189, 1);
+}
+.raviravi{
+    margin-top: 25%;
 }
 #inf {
     font-size: 64px;
