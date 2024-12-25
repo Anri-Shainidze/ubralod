@@ -1,3 +1,7 @@
+body {
+    min-height: 100vh;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,21 +10,11 @@
 header {
     height: 90px;
 }
-body {
-    min-height: 100vh;
-}
 .photos {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 2rem;
 }
 .erti {
     display: flex;
@@ -43,6 +37,13 @@ nav a {
     letter-spacing: 0.2em;
     text-decoration: none;
     color: black;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
 }
 .position h1 {
     font-size: 64px;
@@ -91,7 +92,7 @@ nav a {
     gap: 6rem;
     width: 30%;
 }
-.nuru {
+.mokvasoki {
     margin-top: 6px;
 }
 .button {
