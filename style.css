@@ -123,6 +123,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     background-color: rgb(237, 233, 233);
     height: 450px;
     padding: 3rem;
@@ -542,7 +543,7 @@ main {
     gap: 2rem;
 }
 .pirvelive{
-    margin-top: 20%;
+    margin-top: 10%;
 }
 .project2 {
     display: flex;
